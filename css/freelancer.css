@@ -49,7 +49,7 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #18bc9c;
+  background-color: #a44cfc;
 }
 
 hr.star-dark {
@@ -124,7 +124,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #18bc9c;
+  color: #a44cfc;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active,
@@ -133,7 +133,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #18bc9c;
+  color: #a44cfc;
 }
 
 #mainNav .navbar-toggler {
@@ -158,13 +158,13 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #18bc9c;
+    background: #a44cfc;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active,
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus,
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #18bc9c;
+    background: #a44cfc;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -219,7 +219,7 @@ header.masthead h2 {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: rgba(24, 188, 156, 0.9);
+  background-color: rgba(230, 216, 247, 0.9);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -348,7 +348,7 @@ a {
 a:focus,
 a:hover,
 a:active {
-  color: #128f76;
+  color: #a44cfc;
 }
 
 .btn {
@@ -356,7 +356,7 @@ a:active {
 }
 
 .bg-primary {
-  background-color: #18bc9c !important;
+  background-color: #a44cfc !important;
 }
 
 .bg-secondary {
@@ -364,7 +364,7 @@ a:active {
 }
 
 .text-primary {
-  color: #18bc9c !important;
+  color: #a44cfc !important;
 }
 
 .text-secondary {
@@ -372,15 +372,15 @@ a:active {
 }
 
 .btn-primary {
-  background-color: #18bc9c;
-  border-color: #18bc9c;
+  background-color: #a44cfc;
+  border-color: #a44cfc;
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  background-color: #128f76;
-  border-color: #128f76;
+  background-color: #a44cfc;
+  border-color: #a44cfc;
 }
 
 .btn-secondary {
@@ -452,4 +452,13 @@ a:active {
   font-size: 15px;
   text-align: left;
   position: static;
+}
+
+.term-description {
+  color: #ca9ff5;
+}
+
+.img-fluid {
+  height: 200px;
+  width: 400px;
 }
