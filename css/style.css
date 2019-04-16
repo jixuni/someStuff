@@ -397,7 +397,7 @@ a:active {
 
 #bar {
   text-align: center;
-  width: 750px;
+  width: auto;
   height: 25px;
   background-color: #dad9d9;
   margin: 0 auto;
@@ -440,7 +440,7 @@ a:active {
 }
 #screen {
   background-color: #33485e;
-  width: 750px;
+  width: auto;
   height: 450px;
   border-radius: 2%;
   margin: 0 auto;
