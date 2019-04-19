@@ -51,6 +51,13 @@ hr.star-light:after {
   color: #fff;
   background-color: #a44cfc;
 }
+#footerStar {
+  border-color: #fff;
+}
+#footerStar:after {
+  color: #fff;
+  background-color: #2c3e50;
+}
 
 hr.star-dark {
   border-color: #2c3e50;
@@ -405,6 +412,7 @@ a:active {
   padding: auto;
   float: none;
   border-radius: 5px;
+  box-shadow: 10px 10px 23px 0px rgba(0, 0, 0, 0.75);
 }
 #red {
   background-color: #e94b35;
@@ -445,6 +453,7 @@ a:active {
   border-radius: 2%;
   margin: 0 auto;
   padding: 1px;
+  box-shadow: 10px 10px 23px 0px rgba(0, 0, 0, 0.75);
 }
 .font {
   color: #fff;
@@ -492,4 +501,11 @@ a:active {
   50% {
     border-color: white;
   }
+}
+
+#email-footer {
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
 }
