@@ -43,7 +43,7 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #a44cfc;
+  background-color: #faab4a;
 }
 #footerStar {
   border-color: #fff;
@@ -125,7 +125,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #a44cfc;
+  color: #faab4a;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active,
@@ -134,7 +134,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #a44cfc;
+  color: #faab4a;
 }
 
 #mainNav .navbar-toggler {
@@ -159,13 +159,13 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #a44cfc;
+    background: #faab4a;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active,
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus,
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #a44cfc;
+    background: #faab4a;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -179,6 +179,10 @@ section h2 {
 header.masthead {
   padding-top: calc(6rem + 72px);
   padding-bottom: 6rem;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), transparent),
+    url("../img/portfolio//background.jpg") bottom no-repeat;
+  background-size: cover;
+  margin-top: 3rem;
 }
 
 header.masthead h1 {
@@ -261,7 +265,7 @@ a {
 a:focus,
 a:hover,
 a:active {
-  color: #a44cfc;
+  color: #faab4a;
 }
 
 .btn {
@@ -269,7 +273,7 @@ a:active {
 }
 
 .bg-primary {
-  background-color: #a44cfc !important;
+  background-color: #faab4a !important;
 }
 
 .bg-secondary {
@@ -277,7 +281,7 @@ a:active {
 }
 
 .text-primary {
-  color: #a44cfc !important;
+  color: #faab4a !important;
 }
 
 .text-secondary {
@@ -285,15 +289,15 @@ a:active {
 }
 
 .btn-primary {
-  background-color: #a44cfc;
-  border-color: #a44cfc;
+  background-color: #faab4a;
+  border-color: #faab4a;
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  background-color: #a44cfc;
-  border-color: #a44cfc;
+  background-color: #faab4a;
+  border-color: #faab4a;
 }
 
 .btn-secondary {
@@ -385,7 +389,7 @@ a:active {
   overflow: hidden;
   border-right: 0.5em solid white;
   white-space: nowrap;
-  margin: 0 auto;
+  margin: 4rem auto;
   letter-spacing: 0.15em;
   animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
 }
