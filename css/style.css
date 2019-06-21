@@ -392,6 +392,7 @@ a:active {
   margin: 4rem auto;
   letter-spacing: 0.15em;
   animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+  white-space: initial;
 }
 
 @keyframes typing {
