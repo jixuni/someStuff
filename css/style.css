@@ -425,3 +425,13 @@ a:active {
     white-space: initial !important;
   }
 }
+
+.card {
+  margin-bottom: 2rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
+}
