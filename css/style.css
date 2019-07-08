@@ -424,6 +424,9 @@ a:active {
   #typewriter {
     white-space: initial !important;
   }
+  #screen {
+    height: auto;
+  }
 }
 
 .card {
